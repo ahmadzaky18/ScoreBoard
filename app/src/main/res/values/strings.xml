@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BoardScore</string>
+    <string name="facebook_app_id">686343378550298</string>
+    <string name="server_client_id">773411258511-flcjcvgfb5ajd2q4h9q4ul9oenngvngq.apps.googleusercontent.com</string>
 </resources>

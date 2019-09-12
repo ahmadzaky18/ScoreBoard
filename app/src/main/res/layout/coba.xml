@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+  <com.google.android.gms.common.SignInButton
+      android:id="@+id/googleSignInButton"
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true" />
+  <FrameLayout
+      android:id="@+id/FrameLayout1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_gravity="center"
+      android:layout_marginBottom="72dp"
+
+      >
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#3B5998"
+        android:layout_marginHorizontal="4dp"
+        android:onClick="onClickFacebookButton"
+        android:text="Sign up with Facebook"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+  </FrameLayout>
+
+
+</RelativeLayout>
