@@ -115,7 +115,6 @@ public class Login extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra(MainActivity.GOOGLE_ACCOUNT, googleSignInAccount);
         startActivity(intent);
-        finish();
     }
     public void onStart() {
         super.onStart();
